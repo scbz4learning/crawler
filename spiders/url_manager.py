@@ -18,7 +18,7 @@ class URLManager:
 if __name__ == "__main__":
     manager = URLManager()
     manager.add_seed_urls([
-        'https://news.sina.com.cn',     # 新浪新闻
-        'https://www.163.com',          # 网易新闻
-        'https://www.sohu.com'          # 搜狐新闻
+        'https://example.com',
+        'https://httpbin.org',
+        'https://books.toscrape.com'
     ])
